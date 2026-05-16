@@ -1,0 +1,33 @@
+[versions]
+agp                = "8.5.2"
+kotlin             = "2.0.0"
+googleServices     = "4.4.2"
+firebaseBom        = "33.1.2"
+coreKtx            = "1.13.1"
+appcompat          = "1.7.0"
+material           = "1.12.0"
+constraintlayout   = "2.1.4"
+activityKtx        = "1.9.0"
+junit              = "4.13.2"
+junitAndroid       = "1.2.1"
+espresso           = "3.6.1"
+
+[libraries]
+androidx-core-ktx           = { group = "androidx.core",       name = "core-ktx",            version.ref = "coreKtx" }
+androidx-appcompat          = { group = "androidx.appcompat",  name = "appcompat",            version.ref = "appcompat" }
+material                    = { group = "com.google.android.material", name = "material",     version.ref = "material" }
+androidx-constraintlayout   = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-activity-ktx       = { group = "androidx.activity",  name = "activity-ktx",         version.ref = "activityKtx" }
+
+firebase-bom                = { group = "com.google.firebase", name = "firebase-bom",         version.ref = "firebaseBom" }
+firebase-database           = { group = "com.google.firebase", name = "firebase-database" }
+firebase-database-ktx       = { group = "com.google.firebase", name = "firebase-database-ktx" }
+
+junit                       = { group = "junit",               name = "junit",                version.ref = "junit" }
+androidx-junit              = { group = "androidx.test.ext",   name = "junit",                version.ref = "junitAndroid" }
+androidx-espresso-core      = { group = "androidx.test.espresso", name = "espresso-core",     version.ref = "espresso" }
+
+[plugins]
+android-application  = { id = "com.android.application",           version.ref = "agp" }
+kotlin-android       = { id = "org.jetbrains.kotlin.android",      version.ref = "kotlin" }
+google-services      = { id = "com.google.gms.google-services",    version.ref = "googleServices" }
