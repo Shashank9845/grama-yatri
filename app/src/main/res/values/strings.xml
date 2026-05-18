@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Grama-Yatri</string>
+    <string name="ping">Ping</string>
+    <string name="stop_name_placeholder">Stop Name</string>
+    <string name="eta_placeholder">Estimated arrival...</string>
+    <string name="no_stops_found">No bus stops found.\nCheck your Firebase connection.</string>
+</resources>

@@ -1,0 +1,55 @@
+{
+  "cities": {
+    "belagavi":  { "id": "belagavi",  "name": "Belagavi" },
+    "dharwad":   { "id": "dharwad",   "name": "Dharwad" },
+    "hubli":     { "id": "hubli",     "name": "Hubli" },
+    "bangalore": { "id": "bangalore", "name": "Bangalore" }
+  },
+  "routes": {
+    "belagavi_dharwad": {
+      "from": "belagavi",
+      "to":   "dharwad",
+      "stops": [
+        { "index": 0, "name": "Belagavi Bus Stand",   "avgTimeToNext": 10 },
+        { "index": 1, "name": "Kitturu Village",       "avgTimeToNext": 15 },
+        { "index": 2, "name": "Saundatti",             "avgTimeToNext": 20 },
+        { "index": 3, "name": "Navalgund",             "avgTimeToNext": 18 },
+        { "index": 4, "name": "Dharwad City",          "avgTimeToNext": 0  }
+      ]
+    },
+    "hubli_bangalore": {
+      "from": "hubli",
+      "to":   "bangalore",
+      "stops": [
+        { "index": 0, "name": "Hubli Central",          "avgTimeToNext": 25 },
+        { "index": 1, "name": "Haveri",                 "avgTimeToNext": 30 },
+        { "index": 2, "name": "Ranebennur",             "avgTimeToNext": 35 },
+        { "index": 3, "name": "Davangere",              "avgTimeToNext": 40 },
+        { "index": 4, "name": "Chitradurga",            "avgTimeToNext": 45 },
+        { "index": 5, "name": "Bangalore Majestic",     "avgTimeToNext": 0  }
+      ]
+    },
+    "belagavi_bangalore": {
+      "from": "belagavi",
+      "to":   "bangalore",
+      "stops": [
+        { "index": 0, "name": "Belagavi Bus Stand",    "avgTimeToNext": 20 },
+        { "index": 1, "name": "Dharwad",                "avgTimeToNext": 25 },
+        { "index": 2, "name": "Hubli",                  "avgTimeToNext": 30 },
+        { "index": 3, "name": "Davangere",              "avgTimeToNext": 40 },
+        { "index": 4, "name": "Tumkur",                 "avgTimeToNext": 50 },
+        { "index": 5, "name": "Bangalore Majestic",     "avgTimeToNext": 0  }
+      ]
+    },
+    "hubli_dharwad": {
+      "from": "hubli",
+      "to":   "dharwad",
+      "stops": [
+        { "index": 0, "name": "Hubli Central",          "avgTimeToNext": 8  },
+        { "index": 1, "name": "Unkal",                  "avgTimeToNext": 7  },
+        { "index": 2, "name": "Tarihal",                "avgTimeToNext": 6  },
+        { "index": 3, "name": "Dharwad City",           "avgTimeToNext": 0  }
+      ]
+    }
+  }
+}
